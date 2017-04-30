@@ -82,7 +82,6 @@ abstract class AbstractClient
     {
         $json = json_decode($content);
 
-//      throw new \Exception('API response is not a valid JSON string: ' . $content);
         return $json;
     }
 
